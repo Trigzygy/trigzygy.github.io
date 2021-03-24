@@ -1,0 +1,40 @@
+body {
+  /*alignment*/
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display:flex;
+
+  /* Take full size */
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+
+  /*Fonty stuff*/
+  color:black;
+
+  /*background*/
+  background:ghostwhite;
+}
+
+.contentbox {
+  display:flex;
+  flex-direction:column;
+  max-width:40em;
+  margin: 0.1em;
+  flex-wrap:wrap;
+}
+
+header {
+  font-weight: bold;
+}
+
+header h1 {
+  border-top-style: solid;
+  border-bottom-style: solid;
+}
+
+main {
+
+}
